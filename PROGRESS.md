@@ -9,6 +9,9 @@
 - [x] Wallet Provider Wrapper
 - [x] UI Components Integration (`@txnlab/use-wallet-ui-react`)
 - [x] Pera, Defly, and Lute Wallet Support
+- [x] Sticky Header with Glassmorphism
+- [x] Top-Right Wallet Connection
+- [x] Hero Section UI Polish
 
 ### Next Steps:
 - [ ] Connect to Mainnet (currently on Testnet)
