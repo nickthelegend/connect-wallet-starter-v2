@@ -1,6 +1,7 @@
 'use client'
 
 import { LayoutGrid, ShieldCheck, Zap } from 'lucide-react'
+import { SignDemo } from '@/components/SignDemo'
 
 export default function Home() {
   return (
@@ -39,12 +40,14 @@ export default function Home() {
             desc="Pre-built components with full dark mode support out of the box."
           />
         </div>
+
+        <SignDemo />
       </div>
     </main>
   )
 }
 
-function FeatureCard({ icon, title, desc }: { icon: any, title: string, desc: string }) {
+function FeatureCard({ icon, title, desc }: { icon: React.ReactNode, title: string, desc: string }) {
   return (
     <div className="p-8 border border-zinc-800 bg-zinc-900/30 rounded-2xl hover:bg-zinc-900/50 hover:border-teal-500/30 transition-all group text-left backdrop-blur-sm">
       <div className="mb-4 p-3 rounded-xl bg-zinc-900 border border-zinc-800 w-fit group-hover:scale-110 transition-transform">
